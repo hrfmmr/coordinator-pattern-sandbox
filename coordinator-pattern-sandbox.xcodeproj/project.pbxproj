@@ -13,6 +13,8 @@
 		D5A402A525BBAB2A00D48F80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5A402A425BBAB2A00D48F80 /* Assets.xcassets */; };
 		D5A402A825BBAB2A00D48F80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5A402A625BBAB2A00D48F80 /* LaunchScreen.storyboard */; };
 		D5E7BF9725BD8C5A00D3F736 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E7BF9625BD8C5A00D3F736 /* AppCoordinator.swift */; };
+		D5E7BF9C25BD945900D3F736 /* ItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E7BF9B25BD945900D3F736 /* ItemListViewController.swift */; };
+		D5E7BFA025BD995900D3F736 /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E7BF9F25BD995900D3F736 /* ItemDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D5A402A725BBAB2A00D48F80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5A402A925BBAB2A00D48F80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5E7BF9625BD8C5A00D3F736 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		D5E7BF9B25BD945900D3F736 /* ItemListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListViewController.swift; sourceTree = "<group>"; };
+		D5E7BF9F25BD995900D3F736 /* ItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				D5A4029D25BBAB2900D48F80 /* SceneDelegate.swift */,
 				D5A4029F25BBAB2900D48F80 /* ViewController.swift */,
 				D5E7BF9625BD8C5A00D3F736 /* AppCoordinator.swift */,
+				D5E7BF9B25BD945900D3F736 /* ItemListViewController.swift */,
+				D5E7BF9F25BD995900D3F736 /* ItemDetailViewController.swift */,
 				D5A402A425BBAB2A00D48F80 /* Assets.xcassets */,
 				D5A402A625BBAB2A00D48F80 /* LaunchScreen.storyboard */,
 				D5A402A925BBAB2A00D48F80 /* Info.plist */,
@@ -138,6 +144,8 @@
 			files = (
 				D5E7BF9725BD8C5A00D3F736 /* AppCoordinator.swift in Sources */,
 				D5A402A025BBAB2900D48F80 /* ViewController.swift in Sources */,
+				D5E7BFA025BD995900D3F736 /* ItemDetailViewController.swift in Sources */,
+				D5E7BF9C25BD945900D3F736 /* ItemListViewController.swift in Sources */,
 				D5A4029C25BBAB2900D48F80 /* AppDelegate.swift in Sources */,
 				D5A4029E25BBAB2900D48F80 /* SceneDelegate.swift in Sources */,
 			);
